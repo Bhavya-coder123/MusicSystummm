@@ -1,0 +1,25 @@
+#ENDER{
+    color:white;
+    font-weight: 500;
+}
+#BOOM{
+    color:rgb(68, 79, 141);
+    font-size: 20px;
+    margin-top: 20px;
+    
+    border-radius: 8px;
+    font-weight: bold;
+    
+}
+canvas{
+    animation-name: bhavya;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    border-radius: 8px;
+
+}
+@keyframes bhavya{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px purple;}
+}
